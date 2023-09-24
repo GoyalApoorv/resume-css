@@ -1,66 +1,57 @@
-* {
-    margin: 0;
-    font-family: sans-serif;
-}
 body {
     margin: 0;
-    color: black;
-    background-color: white;
-    font-family: montser;
+    font-family: initial;
 }
 
-header { 
-    display: flex;
+header {
     width: 100vw;
-    top: 0;
-    color: var(--primary-color);
-    height: auto;
-    background-color: var(--secondary-color);
-    margin-bottom: 10px;
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+    height: 45px;
 }
 
-
-.resume {
-    margin-top: 50px;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    line-height: 1.4;
-}
-
-article {
-    margin-top: 50px;
-  
-}
-
-article h2 {
-    margin-bottom: 10px;
-}
-
-article ul {
-    margin-top: 15px;
-}
-
-.skills {
-    margin-bottom: 50px;
-}
-
-.experience {
-    margin-bottom: 50px ;
-}
-
-.experience ul {
-    margin-top: 10px;
-}
-
-.education { 
-    margin-bottom: 50px;
-}
-
-.education h2 {
+header p {
+    padding-top: 10px;
     padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+article p {
+    margin-top: -10px;
+}
+
+main {
+    padding-left: 25vw;
+    padding-right: 25vw;  
+    line-height: 1.4;
 }
 
 .links {
     text-align: center;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.left-border {
+    border-left: 4px solid #d8720d;
+    padding-left: 8px;
+}
+
+.links {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
